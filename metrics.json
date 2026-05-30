@@ -1,0 +1,49 @@
+{
+    "accuracy": 0.9914285714285714,
+    "train_samples": 11200,
+    "test_samples": 2800,
+    "total_samples": 14000,
+    "model": "Logistic Regression",
+    "vectorizer": "TF-IDF",
+    "classes": {
+        "0": "Fake",
+        "1": "Real"
+    },
+    "confusion_matrix": [
+        [
+            1387,
+            13
+        ],
+        [
+            11,
+            1389
+        ]
+    ],
+    "classification_report": {
+        "Fake": {
+            "precision": 0.9921316165951359,
+            "recall": 0.9907142857142858,
+            "f1-score": 0.9914224446032881,
+            "support": 1400.0
+        },
+        "Real": {
+            "precision": 0.9907275320970043,
+            "recall": 0.9921428571428571,
+            "f1-score": 0.9914346895074947,
+            "support": 1400.0
+        },
+        "accuracy": 0.9914285714285714,
+        "macro avg": {
+            "precision": 0.9914295743460702,
+            "recall": 0.9914285714285714,
+            "f1-score": 0.9914285670553914,
+            "support": 2800.0
+        },
+        "weighted avg": {
+            "precision": 0.99142957434607,
+            "recall": 0.9914285714285714,
+            "f1-score": 0.9914285670553914,
+            "support": 2800.0
+        }
+    }
+}

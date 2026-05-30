@@ -1,0 +1,26 @@
+timestamp,prediction,confidence_percent,credibility_percent,news_text
+2026-05-30 23:50:26,Fake,50.42,49.58,Experts have confirmed that gravity will stop working for two hours next week due to a rare planetary alignment. Citizens are advised to stay indoors to avoid floating into the sky.
+2026-05-30 23:48:20,Real,74.16,74.16,The Reserve Bank of India announced that it will review interest rates after assessing inflation trends and economic growth indicators. Officials stated that the decision will be based on current market conditions and financial stability requirements.
+2026-05-30 17:08:57,Real,52.49,52.49,"Visvesvaraya Technological University (VTU) has released the results of the Bachelor of Engineering and Bachelor of Technology final semester exam, within 10 minutes of the completion of the final test."
+2026-05-30 14:57:52,Fake,58.96,41.04,"According to Forbes Korea, #BTS's estimated income has been tallied at 334 billion won ($222M) just a few months after their comeback as a complete group. In the recent announcement of 'Highest-Paid Musicians' compiled by Forbes (based on 2026 data), The Weeknd is the world's top artist, with estimated earnings reaching $298 million (approximately 450 billion won)."
+2026-05-30 14:57:19,Fake,58.96,41.04,"According to Forbes Korea, #BTS (https://x.com/hashtag/BTS?src=hashtag_click)'s estimated income has been tallied at 334 billion won ($222M) just a few months after their comeback as a complete group. In the recent announcement of 'Highest-Paid Musicians' compiled by Forbes (based on 2026 data), The Weeknd is the world's top artist, with estimated earnings reaching $298 million (approximately 450 billion won)."
+2026-05-30 14:51:33,Fake,68.01,31.99,A mysterious plant found in the Himalayas allows humans to live for 500 years according to a secret government report.
+2026-05-29 17:30:23,Real,53.68,53.68,"The Government of India has approved a new semiconductor manufacturing initiative aimed at strengthening domestic chip production. Officials stated that the program will encourage investment, create employment opportunities, and reduce dependence on imports. The initiative is expected to support the growth of the electronics and technology sectors in the coming years."
+2026-05-29 17:28:40,Real,52.78,52.78,Researchers at IISc Bangalore developed a new energy efficient semiconductor design that reduces power consumption in embedded systems.
+2026-05-29 17:27:55,Real,52.78,52.78,Researchers at IISc Bangalore developed a new energy efficient semiconductor design that reduces power consumption in embedded systems.
+2026-05-29 17:23:45,Real,52.78,52.78,Researchers at IISc Bangalore developed a new energy efficient semiconductor design that reduces power consumption in embedded systems.
+2026-05-29 17:19:59,Real,52.78,52.78,Researchers at IISc Bangalore developed a new energy efficient semiconductor design that reduces power consumption in embedded systems.
+2026-05-29 16:18:43,Real,52.78,52.78,Researchers at IISc Bangalore developed a new energy efficient semiconductor design that reduces power consumption in embedded systems.
+2026-05-29 16:18:31,Fake,50.08,49.92,A mysterious plant found in the Himalayas allows humans to live for 500 years according to a secret government report.
+2026-05-29 16:18:14,Fake,56.55,43.45,"Leaked messages prove that world leaders have been replaced by identical robots, according to a viral anonymous blog."
+2026-05-29 16:17:48,Real,50.0,50.0,"Councillors to visit controversial site at centre of planning row
+"
+2026-05-29 16:17:15,Fake,56.32,43.68,"Scientists confirm that the moon will disappear next week according to an unknown blog.
+"
+2026-05-29 16:16:55,Real,53.68,53.68,The Government of India announced a new semiconductor manufacturing initiative to boost domestic chip production and attract foreign investment.
+2026-05-29 16:16:38,Fake,54.2,45.8,A secret herb discovered by an anonymous scientist can cure every disease overnight without any medical treatment.
+2026-05-29 15:48:48,Real,50.0,50.0,RM BTS is getting married in June 2026
+2026-05-29 15:47:50,Real,50.0,50.0,Councillors to visit controversial site at centre of planning row
+2026-05-29 15:47:44,Real,50.0,50.0,Councillors to visit controversial site at centre of planning row
+2026-05-29 15:47:41,Real,50.0,50.0,Councillors to visit controversial site at centre of planning row
+2026-05-29 15:46:17,Real,56.01,56.01,"The finance ministry announced a revised infrastructure investment plan after a cabinet meeting, according to an official press release."

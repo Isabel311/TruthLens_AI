@@ -1,0 +1,58 @@
+TruthLens AI: Fake News Detection System
+
+Abstract
+TruthLens AI is a web-based fake news detection system that uses Natural Language Processing and Machine Learning to classify news content as Real News or Fake News. The system processes user-entered headlines or articles, cleans the text, transforms it into numerical features using TF-IDF Vectorization, and predicts the class using Logistic Regression. It also displays a confidence score, credibility percentage, model accuracy, analysis history, and a downloadable prediction report.
+
+Introduction
+Digital news spreads quickly through online platforms, social media, and messaging applications. While this helps people access information faster, it also increases the risk of misinformation and fake news. Fake news can influence public opinion, create panic, and reduce trust in genuine journalism. TruthLens AI provides a simple, fast, and educational system for detecting suspicious news using classical machine learning methods.
+
+Problem Statement
+The internet contains a large amount of misleading and fabricated news content. Manual verification is time-consuming and not always practical for ordinary users. There is a need for an automated system that can analyze news text and provide an initial indication of whether the content appears real or fake.
+
+Objectives
+1. Build a web application for fake news classification.
+2. Preprocess news text using standard NLP techniques.
+3. Convert text into numerical features using TF-IDF Vectorization.
+4. Train a Logistic Regression model on the Fake and Real News Dataset.
+5. Display prediction output as Real News or Fake News.
+6. Show confidence score, credibility percentage, and model accuracy.
+7. Provide sample inputs, prediction history, warning banners, and downloadable reports.
+8. Make the project suitable for local execution and Google Colab training.
+
+Methodology
+The dataset contains two CSV files: Fake.csv and True.csv. The fake news records are labeled as 0, while the real news records are labeled as 1. The title and article text are combined into a single content field. Text preprocessing includes lowercasing, punctuation removal, tokenization, stopword removal, and removal of non-alphabetic tokens. The cleaned text is converted into TF-IDF features with unigram and bigram terms. The dataset is split into training and testing sets using stratified sampling. A Logistic Regression model is trained on the TF-IDF vectors and evaluated using accuracy, confusion matrix, and classification report.
+
+System Architecture
+1. User Interface Layer: Streamlit web app accepts news input and displays results.
+2. Preprocessing Layer: NLTK cleans and tokenizes text.
+3. Feature Extraction Layer: TF-IDF Vectorizer converts cleaned text into numerical vectors.
+4. Machine Learning Layer: Logistic Regression classifies the text as Fake or Real.
+5. Evaluation Layer: Accuracy and classification metrics are stored in metrics.json.
+6. Output Layer: The app shows prediction, confidence, credibility, warning indicators, history, and report download.
+
+Advantages
+1. Lightweight and fast compared with heavy deep learning models.
+2. Easy to train on a normal laptop or in Google Colab.
+3. Uses explainable classical NLP and machine learning techniques.
+4. Provides a clean Streamlit interface for practical demonstration.
+5. Includes useful project features such as history and downloadable reports.
+6. Suitable for engineering mini project presentations.
+
+Applications
+1. Educational demonstration of NLP and machine learning.
+2. Initial screening of news headlines and articles.
+3. Awareness tool for misinformation detection.
+4. Mini project for computer science and engineering students.
+5. Prototype for larger fact-checking or media monitoring systems.
+
+Future Scope
+1. Add larger and more recent datasets from multiple news domains.
+2. Include source credibility, author reputation, and publication date features.
+3. Add explainability using highlighted influential words.
+4. Compare Logistic Regression with Passive Aggressive Classifier, Naive Bayes, and ensemble models.
+5. Integrate real-time news APIs for live checking.
+6. Add multilingual fake news detection.
+7. Improve robustness against sarcastic, short, or highly opinionated text.
+
+Conclusion
+TruthLens AI demonstrates how Natural Language Processing and Machine Learning can be used to detect fake news efficiently. By using TF-IDF Vectorization and Logistic Regression, the system remains simple, fast, and suitable for academic mini projects. The Streamlit interface makes the project easy to use, while confidence scoring, credibility percentage, model accuracy, history, and downloadable reports make it practical for demonstrations and further development.
